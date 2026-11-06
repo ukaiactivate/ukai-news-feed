@@ -11,7 +11,7 @@ An item JSON file looks like:
   "date": "2026-11-06T08:00:00+00:00",              # ISO 8601
   "title": "Headline in sentence case",
   "summary": "One or two sentence standfirst, plain text.",
-  "category": "Policy",                             # short topic label
+  "category": "Regulation and policy",              # one of CATEGORIES below
   "card_stat": "£120bn",                            # optional big figure for the image
   "card_line": "Short line under the figure",       # optional, used with card_stat
   "body_html": "<p>...</p><h3>Why it matters</h3><p>...</p>",
@@ -52,6 +52,9 @@ BRIGHT_TEAL = "#1E9188"
 MINT = "#17FFBD"
 YELLOW = "#ECE55C"
 REQUIRED = ["id", "date", "title", "summary", "category", "body_html", "source_name", "source_url"]
+# Ready Membership maps these feed categories to topics (System settings > Lookups > RSS feed import).
+# "Economy" is Ready's default topic, used for anything that fits none of the others.
+CATEGORIES = ["Regulation and policy", "Investment and infrastructure", "Skills", "Economy"]
 
 
 def esc(s):
@@ -167,6 +170,8 @@ def validate(item):
     missing = [k for k in REQUIRED if not item.get(k)]
     if missing:
         sys.exit(f"Item is missing: {', '.join(missing)}")
+    if item["category"] not in CATEGORIES:
+        sys.exit(f"Category must be one of: {', '.join(CATEGORIES)}")
     datetime.fromisoformat(item["date"])
 
 
