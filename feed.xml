@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>UKAI Daily AI News</title>
+    <link>https://ukai.co</link>
+    <description>Daily summaries of AI news relevant to the UK AI industry, from UKAI.</description>
+    <language>en-gb</language>
+    <lastBuildDate>Fri, 06 Nov 2026 14:29:46 +0000</lastBuildDate>
+    <atom:link href="https://ukaiactivate.github.io/ukai-news-feed/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Government cuts AI growth estimate to £120bn, a third of the figure ministers quoted</title>
+      <link>https://aiweekly.co/alerts/uk-minister-ai-boost-is-120b-400b-came-from-google-report</link>
+      <guid isPermaLink="false">ukai-news-2026-11-06-uk-ai-economic-estimate</guid>
+      <pubDate>Fri, 06 Nov 2026 08:00:00 +0000</pubDate>
+      <category>Policy</category>
+      <description>The AI minister has told Parliament that AI and data investment could add £55bn to £140bn to the UK economy by 2030, well below the £400bn figure used across government for almost two years.</description>
+      <content:encoded><![CDATA[<p><strong>The UK government's own estimate of what AI could add to the economy is less than a third of the figure ministers have been quoting.</strong></p><p>In a written parliamentary answer, AI minister Kanishka Narayan said AI adoption and data investment could add between £55bn and £140bn to the UK economy by 2030, with a central estimate of £120bn. He described even this range as highly uncertain.</p><p>Narayan also confirmed that the widely repeated £400bn figure came from a 2023 report commissioned by Google and produced by Public First. He did not withdraw the larger number or say it was wrong, but it is the first time the government has set the two estimates side by side.</p><h3>Why it matters</h3><p>Headline forecasts shape investment cases, skills funding and public expectations. A £120bn central case is still a significant prize, but it strengthens the argument for evidence-based policy and for UK-owned data on adoption and productivity, rather than numbers commissioned by individual vendors.</p><h3>Related on UKAI</h3><ul><li><a href="https://ukai.co/resource/uk-firms-report-ai-productivity-boost-but-face-skills-and-culture-barriers.html">UK firms report AI productivity boost but face skills and culture barriers</a></li></ul><p>Source: <a href="https://aiweekly.co/alerts/uk-minister-ai-boost-is-120b-400b-came-from-google-report">AI Weekly, reporting Wired</a></p><p><em>Created by Amplify: AI-augmented, human-curated content.</em></p>]]></content:encoded>
+      <enclosure url="https://ukaiactivate.github.io/ukai-news-feed/images/2026-11-06-uk-ai-economic-estimate.png" length="98638" type="image/png"/>
+      <media:content url="https://ukaiactivate.github.io/ukai-news-feed/images/2026-11-06-uk-ai-economic-estimate.png" medium="image" type="image/png" width="1200" height="630"/>
+      <media:thumbnail url="https://ukaiactivate.github.io/ukai-news-feed/images/2026-11-06-uk-ai-economic-estimate.png" width="1200" height="630"/>
+    </item>
+  </channel>
+</rss>
